@@ -34,3 +34,19 @@ console.log(greet);
 greet = `${greet} Come stai`
 
 console.log(greet);
+
+
+// ESERCIZIO 1
+let num1 = 10;
+let num2 = 20;
+
+let comparison;
+
+if (num1 > num2) {
+    comparison = num1
+}
+else{
+    comparison = num2
+}
+
+console.log(comparison);
