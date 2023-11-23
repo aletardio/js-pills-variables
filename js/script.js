@@ -99,3 +99,12 @@ const numbers = [1,2,3,4,5,6,7,8];
 console.log(numbers);
 
 
+// ESERCIZIO 1/B 
+
+const fruits = ['mela', 'banana', 'pesca', 'pera', 'albicocca', 'mango',
+'kiwi', 'papaya'];
+
+// ESERCIZIO 1/C
+
+console.log(fruits.length);
+
