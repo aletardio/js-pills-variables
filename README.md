@@ -37,3 +37,6 @@ Assegna alla variabile `comparison` il risultato del confronto tra un numero e u
 
 **Esercizio 1/A**  
 Scrivi un *ciclo for* che stampi i numeri interi da 1 a 42 (compresi)  
+
+**Esercizio 1/B**  
+Ora riscrivi il *ciclo for* in modo che stampi i numeri interi da 42 a 1 
