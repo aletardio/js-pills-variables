@@ -40,7 +40,7 @@ console.log(greet);
 let num1 = 10;
 let num2 = 20;
 
-let comparison;
+// let comparison;
 
 if (num1 > num2) {
     comparison = num1
@@ -50,3 +50,39 @@ else{
 }
 
 console.log(comparison);
+
+// ESERCIZIO 2
+
+let name1 = 'Ciro';
+let name2 = 'Ciro';
+
+// let comparison;
+
+if (name1 == name2) {
+    comparison = "le stringhe sono uguali";
+}
+else {
+    comparison = "le stringhe sono diverse";
+}
+
+console.log(comparison);
+
+// ESERCIZIO 3
+
+let num = 10;
+let comparison;
+
+if (num == '10') {
+    comparison = true
+}
+else {
+    comparison = false
+}
+
+console.log(comparison);
+
+
+// ESERCIZIO 1/A 
+for(let i=1; i<=42; i++ ){
+    console.log(i);
+}
