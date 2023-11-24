@@ -137,25 +137,91 @@
 // console.log(sum);
 
 
-// ESERCIZIO 2/C
-const numOfElements = prompt('Inserisci un numero intero');
+// // ESERCIZIO 2/C
+// const numOfElements = prompt('Inserisci un numero intero');
+// let numbers = [];
+
+// for(let i = 1; i <= numOfElements; i++) {
+//     numbers.push(parseInt(Math.random() * 10) + 1);
+
+// }
+
+// console.log(numbers);
+
+// let maggiore = 1;
+
+// for(let i = 0; i < numbers.length; i++) {
+//     if(numbers[i] > maggiore) {
+//         maggiore = numbers[i];
+//     }
+// }
+
+// console.log(maggiore);
+
+// SNACK 1 
+
+// let number_1 = parseInt(prompt('Inserisci il primo numero'));
+// let number_2 = parseInt(prompt('Inserisci il secondo numero'));
+
+// if(number_1 > number_2) {
+//     console.log('Il numero maggiore è: ' +number_1);
+// }
+// else if (number_1 == number_2) {
+//     console.log('I numeri sono uguali: ' +(number_1, number_2));
+// }
+// else {
+//     console.log('Il numero maggiore è: ' +number_2);
+// }
+
+
+// SNACK 2
+
+// let sum = 0;
+
+// for(let i = 1; i <= 10; i++) {
+//     let num = parseInt(prompt('Inserisci il numero'));
+
+//     sum += num;
+// }
+
+// console.log(sum);
+
+// SNACK 3
+
+// let names = ['Arnaldo', 'Giovanni', 'Andrea', 
+// 'Giorgia', 'Arianna', 'Martina', 'Francesca', 
+// 'Letizia', 'Giulio', 'Alessandro'];
+
+// let user = prompt('Inserisci il tuo nome');
+
+// let isValid = false; 
+
+// for(let i = 0; i < names.length; i++) {
+//     // .toLowerCase permette di inserire nomi anche con lettere minuscole
+//     if (names[i].toLowerCase() == user.toLowerCase()) {
+//         isValid = true;
+//     }
+// }
+
+// if(isValid == true) {
+//     console.log('Ciao ' + user + ', puoi partecipare alla festa.');
+// }
+// else {
+//     console.log('Ciao ' + user + ', purtroppo non puoi partecipare alla festa.');
+// }
+
+// SNACK 4
+
 let numbers = [];
 
-for(let i = 1; i <= numOfElements; i++) {
-    numbers.push(parseInt(Math.random() * 10) + 1);
+for(let i = 0; i <= 6; i++) {
+    let num = parseInt(prompt('Inserisci il numero'));
 
-}
-
-console.log(numbers);
-
-let maggiore = 1;
-
-for(let i = 0; i < numbers.length; i++) {
-    if(numbers[i] > maggiore) {
-        maggiore = numbers[i];
+    if(num % 2 != 0){
+        numbers.push(num);
+        console.log(numbers);
+    }
+    else {
+        console.log('Il numero inserito è pari, quindi non può essere inserito');
     }
 }
-
-console.log(maggiore);
-
-

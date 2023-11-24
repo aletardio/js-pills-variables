@@ -63,3 +63,19 @@ Calcola la somma di tutti i numeri presenti nell'array numbers dell'esercizio 2/
 
 **Esercizio 2/C**
 Trova il valore massimo di tutti i numeri presenti nell'array numbers dell'esercizio 2/A
+
+**SNACK 1**
+L'utente inserisce due numeri in successione, con due prompt. 
+Il software stampa il maggiore.
+
+**SNACK 2**
+Il software deve chiedere per 10 volte all'utente di inserire un numero. 
+Il programma stampa la somma di tutti i numeri inseriti.
+
+**SNACK 3**
+In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chedi all'utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+**SNACK 4** 
+Crea un array vuoto. 
+Chedi per 6 volte all'utente di inserire un numero.
+Se è dispari inseriscilo nel'array.
