@@ -79,3 +79,15 @@ In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, c
 Crea un array vuoto. 
 Chedi per 6 volte all'utente di inserire un numero.
 Se è dispari inseriscilo nel'array.
+
+**Esercizio 1/A**
+Definire una funzione che stampi la stringa 'Ciao Mondo'
+
+**Esercizio 1/B**
+Richiamare la funzione definita prima
+
+**Esercizio 2/A**
+Definire una funzione che accetti due numeri in input, ne faccia la somma e la restituisca
+
+**Esercizio 2/A**
+Chiamare la funzione che esegue la somma, assegnare il valore che restituisce ad una variabile e mostrare il risultato

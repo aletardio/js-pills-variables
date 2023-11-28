@@ -212,16 +212,53 @@
 
 // SNACK 4
 
-let numbers = [];
+// let numbers = [];
 
-for(let i = 0; i <= 6; i++) {
-    let num = parseInt(prompt('Inserisci il numero'));
+// for(let i = 0; i <= 6; i++) {
+//     let num = parseInt(prompt('Inserisci il numero'));
 
-    if(num % 2 != 0){
-        numbers.push(num);
-        console.log(numbers);
-    }
-    else {
-        console.log('Il numero inserito è pari, quindi non può essere inserito');
-    }
+//     if(num % 2 != 0){
+//         numbers.push(num);
+//         console.log(numbers);
+//     }
+//     else {
+//         console.log('Il numero inserito è pari, quindi non può essere inserito');
+//     }
+// }
+
+
+// let num = prompt('Inserisci quanti numeri vuoi visualizzare');
+
+// let a = 0; 
+// let b = 1; 
+// let c; 
+// let i = 0;
+// while(i < num){
+//     c = a + b;
+//     a = b;
+//     b = c; 
+//     i++; 
+//     console.log(c);
+// }
+
+
+// ESERCIZIO 1/A
+
+function printCiaoMondo() {
+    alert ('Ciao Mondo');
 }
+
+// ESERCIZIO 1/B
+printCiaoMondo();
+
+// ESERCIZIO 2/A 
+function somma(num1, num2) {
+    // let result = num1 + num2;
+    // return result;
+    return (num1 + num2);
+}
+
+// ESERCIZIO 2/A
+let sum = somma(23,34);
+
+console.log(sum);
